@@ -1,33 +1,43 @@
 # 🪩 Netlink Token (NET)
-Official smart contract repository for **Netlink Token**, a community-driven utility token built on **Polygon Network (PoS)**.
+
+Official smart contract and transparency repository for **Netlink Token (NET)** — a community-driven utility token deployed on the **Polygon (PoS)** network.
 
 ---
 
 ## 📄 Contract Details
-- **Network:** Polygon (PoS)
-- **Contract Address:** [0x0e893B239094A5c573373d44CF1C7D03576b95cb](https://polygonscan.com/token/0x0e893B239094A5c573373d44CF1C7D03576b95cb)
-- **Total Supply:** 99,000,000 NET
-- **Token Type:** ERC-20 Utility Token
-- **Deployed by:** Netlink Developer Team
+- **Token Name:** Netlink Token (NET)  
+- **Network:** Polygon (PoS) — Chain ID 137  
+- **Contract Address:** [`0x0e893B239094A5c573373d44CF1C7D03576b95cb`](https://polygonscan.com/token/0x0e893B239094A5c573373d44CF1C7D03576b95cb)  
+- **Total Supply:** 99,000,000 NET  
+- **Standard:** ERC-20 (EVM Compatible)
+
+> Always verify the official contract address before any on-chain interaction.
 
 ---
 
 ## 🔐 Security & Transparency
-| Category | Status | Notes |
-|-----------|---------|-------|
-| GoPlus Security Scan | ✅ Passed | [View Report]([https://gopluslabs.io/token-security](https://gopluslabs.io/token-security/137/0x0e893B239094A5c573373d44CF1C7D03576b95cb)) |
-| Certora Formal Verification | 🧠 In Progress | Smart contract under formal proof verification |
-| Source Code Verified | ✅ PolygonScan | Publicly verified on PolygonScan |
-| Ownership | 🔒 Locked | Owner renounced for transparency |
+
+### 1️⃣ GoPlus Token Security Scan
+**Live report:**  
+[View on GoPlus Labs](https://gopluslabs.io/token-security/137/0x0e893B239094A5c573373d44CF1C7D03576b95cb)
+
+**Key notes:**
+- GoPlus performs **real-time automated security scans** using on-chain bytecode analysis (not manual review).  
+- Results can update automatically when metadata or ownership status changes on-chain.  
+- It helps detect potential issues like minting rights, blacklist, high tax/fee, proxy usage, or honeypot risks.
+
+🧾 **Local summary:**  
+A snapshot of the GoPlus report is stored under `/audits/goplus-scan.txt` for archival transparency.
 
 ---
 
-## 🌐 Official Links
-- Website: [https://netlinktoken.com](https://netlinktoken.com)
-- Explorer: [PolygonScan](https://polygonscan.com/token/0x0e893B239094A5c573373d44CF1C7D03576b95cb)
-- Telegram: [t.me/netlinkcommunity](https://t.me/netlinkcommunity)
-- Twitter (X): [x.com/netlinktoken](https://x.com/netlinktoken)
+### 2️⃣ Certora Formal Verification
+- **Status:** Planned (Free Tier, basic invariant testing)  
+- **Purpose:** To mathematically prove logical safety for core token operations such as transfer, mint, and burn.  
+- **Output:** Future verification logs will be published under `/audits/certora-result.txt`.
+
+> Formal verification by Certora complements public scans by providing **mathematical proofs** of contract behavior.
 
 ---
 
-## 🧩 Repository Structure
+## 📁 Repository Structure
