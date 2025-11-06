@@ -15,7 +15,7 @@ Official smart contract repository for **Netlink Token**, a community-driven uti
 ## 🔐 Security & Transparency
 | Category | Status | Notes |
 |-----------|---------|-------|
-| GoPlus Security Scan | ✅ Passed | [View Report](https://gopluslabs.io/token-security) |
+| GoPlus Security Scan | ✅ Passed | [View Report]([https://gopluslabs.io/token-security](https://gopluslabs.io/token-security/137/0x0e893B239094A5c573373d44CF1C7D03576b95cb)) |
 | Certora Formal Verification | 🧠 In Progress | Smart contract under formal proof verification |
 | Source Code Verified | ✅ PolygonScan | Publicly verified on PolygonScan |
 | Ownership | 🔒 Locked | Owner renounced for transparency |
