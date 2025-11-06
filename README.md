@@ -1,6 +1,6 @@
-# 🪩 Netlink Token (NET)
+# 🪩 Netlink (NET)
 
-Official smart contract and transparency repository for **Netlink Token (NET)** — a community-driven utility token deployed on the **Polygon (PoS)** network.
+Official smart contract and transparency repository for **Netlink (NET)** — a community-driven utility token deployed on the **Polygon (PoS)** network.
 
 ---
 
@@ -32,7 +32,7 @@ Official smart contract and transparency repository for **Netlink Token (NET)** 
 ## 🧾 GoPlus Live Security Summary
 **Latest check:** November 2025  
 > GoPlus performs real-time on-chain security analysis (not manual review).  
-> Report may change automatically when contract metadata or state updates.
+> Report may change automatically when contract metadata or ownership status updates.
 
 | Risk Category | Detected | Description |
 |----------------|-----------|-------------|
