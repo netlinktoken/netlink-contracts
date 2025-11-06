@@ -7,7 +7,7 @@ Official smart contract and transparency repository for **Netlink Token (NET)** 
 ## 📄 Contract Details
 | Property | Information |
 |-----------|--------------|
-| **Token Name** | Netlink Token (NET) |
+| **Token Name** | Netlink (NET) |
 | **Network** | Polygon (PoS) — Chain ID 137 |
 | **Contract Address** | [`0x0e893B239094A5c573373d44CF1C7D03576b95cb`](https://polygonscan.com/token/0x0e893B239094A5c573373d44CF1C7D03576b95cb) |
 | **Total Supply** | 99,000,000 NET |
